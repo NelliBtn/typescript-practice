@@ -26,3 +26,5 @@ shippingAdress.match('New York') ? taxPercent = 0.1 : taxPercent = 0.05;
 // calculate total
 taxTotal = productPrice * taxPercent;
 total = taxTotal + productPrice + shipping;
+// receipt
+console.log("You ordered " + productName + " to be shipped to " + shippingAdress + ". \nPrice: " + productPrice + ", \nTax: " + taxTotal + ", \nShipping: " + shipping + ", \nTotal: " + total);
