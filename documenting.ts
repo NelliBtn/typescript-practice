@@ -1,3 +1,5 @@
+// HOVER OVER PARAMS TO SEE THE COMMENT
+
 /**
  * function logs a string of fruit string to the console
  * @param fruit1 - the first fruit
@@ -16,7 +18,6 @@ function makeFruitSalad(fruit1: string, fruit2: string): void {
  * @param repeat - number of status repeats
  * @returns - void (nothing)
  */
-
 
 function proclaim(status = 'not ready...', repeat = 1) {
   for (let i = 0; i < repeat; i += 1) {
