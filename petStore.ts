@@ -24,4 +24,4 @@ let ordersArrayTS: [Pet, number][] = [
   [Pet.Chinchilla, 50]
 ];
 
-ordersArrayTS.push([Pet.Jerboa, 3]) // error 'Property 'Jerboa' does not exist on type 'typeof Pet''
+// ordersArrayTS.push([Pet.Jerboa, 3]) // error 'Property 'Jerboa' does not exist on type 'typeof Pet''
