@@ -7,6 +7,7 @@ let ordersArray = [
 ];
 
 // Instead use TS enums:
+// to enumerate all the possible values that a variable could have
 
 enum Pet {
   Hamster,
